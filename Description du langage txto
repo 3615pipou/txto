@@ -1,0 +1,119 @@
+- format texte : .txto
+nom de l'éditeur de texte : Éditons \\Teksilo Stylo Aracnée, Bombyx (vers à soie), Tissage,//
+nom du CMS ?
+compresser en .tar ou .tar.7z ou .tar.xz
+http://sebsauvage.net/rhaa/?2010/06/23/18/07/54-la-superiorite-du-format-7z-7-zip
+http://doc.ubuntu-fr.org/tar
+
+
+compresser en .tar ou .tar.7z ou .tar.xz
+utiliser une typographies à chasse fixe (ex monofur http://www.eurofurence.net/monofur.html)
+
+http://sebsauvage.net/rhaa/?2010/06/23/18/07/54-la-superiorite-du-format-7z-7-zip
+http://doc.ubuntu-fr.org/tar
+
+Utiliser les branches Git pour gérer les différentes versions de commentaires
+
+comment dans un document excel ou pour les fichiers infographie (par exemple les formules mathématiques) indiquer la bonne zone à afficher ? utiliser la zone d’impression ? ajouter un outil de nommage  des zones ?
+
+définir comment les éléments peuvent se combiner.
+
+indication de langue en début de paragraphe (&langue&) ? -> ça sert à quoi ?
+Ajouter les abréviation ? \/html|Hypertext Markup Language \/ -> ou utiliser les références @@html@@
+lien..insécable ?
+supprimer les indications de taille pour les images et films ? -> oui
+
+
+FICHIERS ET DOSSIERS COMPOSANTS LE DOCUMENT
+
+texte.txt
+images/
+films/
+audios/
+infographies/ (dont tableaux, graphiques, formules mathématiques chimiques etc.)
+références/ (ou base de donnée ?)
+blobs/ (genre les pdf etc. qui ne sont pas afficher mais indiqués dans le document)
+
+
+ÉLÉMENTS DE STRUCTURATION DU DOCUMENT
+
+Sauter une ligne équivaut à changer de paragraphe
+un retour à la ligne n’engendre pas un retour à la ligne ni un nouveau paragraphe, mais permet d’utiliser de manière spéciale certaines fonctionnalités.
+
+Dans le corps de texte :
+[[url]]
+[[hypertexte>>url]]
+[[<lien interne]]
++++note+++
+'''emphase légère'''
+¨¨emphase légère¨¨
+***emphase lourde***
+^^^exergue^^^
+\\\supprimé ou non assumé tout en étant publié///
+Forcer un //// retour à la ligne
+?+ texte commenté +?+ commentaire +?
+?+ texte commenté +?+ commentaire +?+ commentaire du commentaire +?
+%%formule mathématique%% 
+
+
+En début de ligne 
+> citation (si pas de saut de ligne avant et après, alors la citation est intégrée au paragraphe dans le corps du texte)
+>> citation qui cite
+>< verbatim
+== Titre 1
+=== Titre 2
+==== Titre 3
+## liste numéroté - niveau 1
+## autre paragraphe niveau 1 mais de nouvelle puce (si pas de saut de ligne)
+## autre puce niveau 1 (si saut de ligne)
+### sous item 1
+-- liste non numéroté - item 1
+-- item 2
+-- autre paragraphe item 2
+--- sous item
+-- autre paragraphe sous item
+---- sous sous-item
+[_] non fait
+[+] fait
+++++encart
++^^+ chapô
+
+
+APPELS EXTÉRIEURS, INTÉGRATION DES DOCUMENTS ANNEXES
+
+@@référence@@ (entre les arobases se trouve la clef primaire de la référence)
+@@référence|nature de la référence@@
+
+{{image}}
+{{{dossier contenant des instructions et images}}}
+{{image>>lien}}
+{{image%taille|titre alt}} } -> La gestion de la taille ne doit-elle pas être déléguée au graphiste ?
+{{image|titre alt>>lien}}
+{{titre alt|image>>lien}}
+{{image%taille>>lien}}
+{{image|titre alt>>lien§gauche, droite ou centre}}
+{{image|titre alt>>lien§gauche, droite ou centre}}
+°°film°° -> quelle image utilisé par deffaut ?
+°°°dossier contenant des instructions et film (ex: les fichiers sous-titres, etc.)°°°
+°°film%taille>>lien°°
+°°film%taille|titre alt°°
+°°film%taille|titre alt>>lien°°
+~~audio~~
+~~~dossier contenant des instructions et son~~~
+~~audio>>lien~~
+~~audio|titre alt>>lien~~
+$$infographie$$
+$$$dossier contenant des instructions et infographie$$$
+$$infographie|titre alt$$
+$$infographie>>lien$$
+$$infographie|titre alt>>lien$$ (comment indiquer le fichier ? ajouter un lien (vers quoi) a-t-il un sens ?
+{[Blob]}
+{[Blob>>lien]}
+{[Blob|titre]}
+{[Blob|titre>>lien]}
+
+
+
+AUTRES SYNTAXES INTÉRESSANTES
+
+Créole http://wiki.wikicreole.org/Creole%202.0/1.0%20additions%20in%202.0
