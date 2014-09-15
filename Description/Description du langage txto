@@ -20,7 +20,8 @@ définir comment les éléments peuvent se combiner.
 
 indication de langue en début de paragraphe (&langue&) ? -> ça sert à quoi ?
 Ajouter les abréviation ? \/html|Hypertext Markup Language \/ -> ou utiliser les références @@html@@
-lien..insécable ?
+espace..insécable ?
+Renvoi à un passage précis (ancre) [[passage<<]] [[hypertexte>>#passage]]
 supprimer les indications de taille pour les images et films ? -> oui
 
 
@@ -44,6 +45,7 @@ un retour à la ligne n’engendre pas un retour à la ligne ni un nouveau parag
 Dans le corps de texte :
 [[url]]
 [[hypertexte>>url]]
+[[infobulle|hypertexte>>url]]
 [[<lien interne]]
 
 '''emphase légère'''
