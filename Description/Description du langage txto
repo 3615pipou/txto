@@ -21,7 +21,7 @@ définir comment les éléments peuvent se combiner.
 indication de langue en début de paragraphe (&langue&) ? -> ça sert à quoi ?
 Ajouter les abréviation ? \/html|Hypertext Markup Language \/ -> ou utiliser les références @@html@@
 espace..insécable ?
-Renvoi à un passage précis (ancre) [[passage<<]] [[hypertexte>>#passage]]
+Renvoi à un passage précis (ancre) [[ancre<#]] [[hypertexte>#ancre]]
 supprimer les indications de taille pour les images et films ? -> oui
 
 
@@ -47,6 +47,8 @@ Dans le corps de texte :
 [[hypertexte>>url]]
 [[infobulle|hypertexte>>url]]
 [[<lien interne]]
+[[hypertexte<lien interne]]
+
 
 '''emphase légère'''
 ¨¨emphase légère¨¨
