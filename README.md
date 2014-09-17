@@ -16,5 +16,5 @@ La rédaction se fait donc par un éditeur de texte, pas par un traitement de te
 
 === Public
 
-Cette syntaxe s’adresse surtout aux rédacteurs concentrés sur le contenu (étudiants, blogueurs, encyclopédiste, universitaires, journalistes, chefs de projets, etc.), que LaTex rebute, qui doivent publier leurs documents dans plusieurs contextes ou les transmettre à une personne qui mettra en forme le document et/ou le publiera dans un contexte possédant déjà sa mise en forme.
+Cette syntaxe s’adresse surtout aux rédacteurs ayant besoin de se concentrer sur le contenu (étudiants, blogueurs, encyclopédiste, universitaires, journalistes, etc.), que LaTex rebute, qui doivent publier leurs documents dans de multiples contextes ou les transmettre à une personne qui mettra en forme le document et/ou le publiera dans un contexte possédant déjà sa mise en forme.
 
